@@ -28,7 +28,6 @@ h6.p {
 
 .items-wrapper {
   margin: 30px auto;
-
   max-width: 340px;
 }
 
@@ -97,4 +96,64 @@ footer h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.button {
+  background-color: #16db99;
+  border: none;
+  color: whitesmoke;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+  width: 100%;
+}
+.module {
+  background-color: #fdfdfd;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+
+  width: 300px;
+  height: 300px;
+}
+
+.wrapper {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px 0;
+  position: relative;
+}
+
+.overlay {
+  background-color: #d1d5db; /* Black background with opacity */
+  z-index: 2;
+}
+
+form {
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+form input {
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+}
+.pay {
+  background-color: #16db99;
+  border: none;
+  color: whitesmoke;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+  width: 90%;
+}
+
+.close {
+  margin-left: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
 }

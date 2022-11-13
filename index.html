@@ -20,20 +20,37 @@
         <h6>The best burgers and pizzas in town.</h6>
       </div>
     </header>
-    <main>
-      <div class="items-wrapper" id="items-wrapper"></div>
-    </main>
-    <footer id="footer">
-      <h4>Your order</h4>
 
-      <div class="footer-wrappwer" id="footer-wrappwer"></div>
+    <div class="wrapper">
+      <section>
+        <div class="items-wrapper" id="items-wrapper"></div>
+      </section>
+
+      <footer id="footer">
+        <h4>Your order</h4>
+
+        <div class="footer-wrappwer" id="footer-wrappwer"></div>
 
         <div class="total-price">
           <p>Total price:</p>
           <div id="total-price">£12</div>
         </div>
+
+        <button class="button" id="check-out">Complete order</button>
+      </footer>
+
+      <div class="module hidden">
+        <div class="close">X</div>
+        <form>
+          <p>Enter card details</p>
+          <input type="text" placeholder="Enter your name" />
+          <input type="text" placeholder="Enter card number" />
+          <input type="text" placeholder="Enter CVV" />
+          <div class="pay">Pay</div>
+        </form>
       </div>
-    </footer>
+    </div>
   </body>
-  <script src="java.js" type="module"></script>
+
+  <script src="java.js"></script>
 </html>
