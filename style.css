@@ -109,11 +109,11 @@ footer h4 {
   width: 100%;
 }
 .module {
+  display: none;
   background-color: #fdfdfd;
   position: absolute;
   top: 10%;
   left: 10%;
-
   width: 300px;
   height: 300px;
 }
