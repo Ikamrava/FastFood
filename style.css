@@ -2,9 +2,17 @@ header,
 body,
 h3,
 h4,
-h6.p {
+h6.p,
+button,
+input,
+form {
   margin: 0;
   padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
   font-family: "Smythe", cursive;
 }
 
@@ -109,8 +117,8 @@ footer h4 {
   width: 100%;
 }
 .module {
-  display: none;
-  background-color: #fdfdfd;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e1dede;
   position: absolute;
   top: 10%;
   left: 10%;
@@ -123,6 +131,7 @@ footer h4 {
   margin: 0 auto;
   padding: 30px 0;
   position: relative;
+  background-color: #f9fbfd;
 }
 
 .overlay {
@@ -131,14 +140,13 @@ footer h4 {
 }
 
 form {
-  padding-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
 form input {
   width: 80%;
-  margin: 10px;
+  margin: 6px;
   padding: 10px;
 }
 .pay {
@@ -156,4 +164,6 @@ form input {
   margin-left: 90%;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 10px;
+  border: none;
+  background-color: #e1dede;
 }

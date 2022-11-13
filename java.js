@@ -27,7 +27,7 @@ let selectedArray = [];
 const itemsWrapper = document.getElementById("items-wrapper");
 const footerWrappwer = document.getElementById("footer-wrappwer");
 const footer = document.getElementById("footer");
-const module = document.getElementById("module");
+const module = document.querySelector(".module");
 
 function render() {
   let htmlTag = "";
@@ -60,8 +60,11 @@ document.addEventListener("click", function (e) {
     handleLikeClick(e.target.dataset.plus);
   } else if (e.target.dataset.remove) {
     handleRemoveBtn(e.target.dataset.remove);
-  } else if ((e.target.id = "check-out")) {
-    module.style.display = "block";
+  } else if (e.target.id === "check-out") {
+    console.log(e.target.id);
+    module.classList.remove("hidden");
+  } else if (e.target.id === "close") {
+    module.classList.add("hidden");
   }
 });
 
@@ -106,8 +109,3 @@ function handleRemoveBtn(id) {
   total += selectedArray.price;
   totalPice.textContent = "£" + total;
 }
-
-document.getElementById("close").addEventListener("click", function () {
-  module.style.display = "none";
-  console.log(module.style.display);
-});
