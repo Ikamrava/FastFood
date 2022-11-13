@@ -1,0 +1,100 @@
+header,
+body,
+h3,
+h4,
+h6.p {
+  margin: 0;
+  padding: 0;
+  font-family: "Smythe", cursive;
+}
+
+.header-wrapper {
+  background-image: url(./Images/header.png);
+  max-width: 400px;
+  background-size: cover;
+  color: white;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.header-wrapper h3 {
+  margin-bottom: 5px;
+  padding-left: 30px;
+}
+
+.header-wrapper h6 {
+  padding-left: 30px;
+}
+
+.items-wrapper {
+  margin: 30px auto;
+
+  max-width: 340px;
+}
+
+.item {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0;
+  gap: 10px;
+  border-bottom: 1px solid #9ca3af;
+  padding-bottom: 20px;
+}
+
+.decription {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex: 2;
+  font-size: 1rem;
+}
+
+.emoji {
+  font-size: 2rem;
+}
+
+.plus-icon img {
+  width: 30px;
+}
+
+.item-ingredient {
+  font-size: 0.5rem;
+}
+.item-price {
+  font-size: 0.8rem;
+}
+.selected-items {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer {
+  margin: 0 auto;
+  max-width: 320px;
+
+  margin-bottom: 30px;
+}
+
+footer h4 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.flex-space {
+  flex: 2;
+}
+
+.hidden {
+  display: none;
+}
+
+.total-price {
+  margin-top: 20px;
+  border-top: solid 2px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
