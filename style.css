@@ -18,7 +18,8 @@ body {
 
 .header-wrapper {
   background-image: url(./Images/header.png);
-  max-width: 400px;
+  max-width: 600px;
+  width: 100%;
   background-size: cover;
   color: white;
   margin: 0 auto;
@@ -36,7 +37,8 @@ body {
 
 .items-wrapper {
   margin: 30px auto;
-  max-width: 340px;
+  max-width: 600px;
+  width: 90%;
 }
 
 .item {
@@ -55,22 +57,22 @@ body {
   justify-content: center;
   flex-direction: column;
   flex: 2;
-  font-size: 1rem;
-}
-
-.emoji {
   font-size: 2rem;
 }
 
+.emoji {
+  font-size: 3rem;
+}
+
 .plus-icon img {
-  width: 30px;
+  width: 50px;
 }
 
 .item-ingredient {
-  font-size: 0.5rem;
+  font-size: 1rem;
 }
 .item-price {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 .selected-items {
   display: flex;
@@ -81,9 +83,10 @@ body {
 
 footer {
   margin: 0 auto;
-  max-width: 320px;
-
+  max-width: 600px;
+  width: 90%;
   margin-bottom: 30px;
+  font-size: 2rem;
 }
 
 footer h4 {
@@ -115,6 +118,7 @@ footer h4 {
   font-size: 15px;
   margin-top: 10px;
   width: 100%;
+  font-size: 1.5rem;
 }
 .module {
   font-family: Arial, Helvetica, sans-serif;
@@ -122,12 +126,14 @@ footer h4 {
   position: absolute;
   top: 10%;
   left: 10%;
-  width: 300px;
-  height: 300px;
+  width: 70%;
+  padding: 2%;
+  font-size: 1.5rem;
 }
 
 .wrapper {
-  max-width: 400px;
+  width: 100%;
+  max-width: 600px;
   margin: 0 auto;
   padding: 30px 0;
   position: relative;
@@ -146,8 +152,9 @@ form {
 
 form input {
   width: 80%;
-  margin: 6px;
+  margin: 12px;
   padding: 10px;
+  font-size: 1rem;
 }
 .pay {
   background-color: #16db99;
@@ -157,7 +164,9 @@ form input {
   padding: 10px;
   font-size: 15px;
   margin-top: 10px;
-  width: 90%;
+  width: 80%;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
 }
 
 .close {
@@ -166,4 +175,5 @@ form input {
   margin-top: 10px;
   border: none;
   background-color: #e1dede;
+  font-size: 1.5rem;
 }

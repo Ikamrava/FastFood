@@ -43,9 +43,17 @@
         <button class="close" id="close">X</button>
         <form>
           <p>Enter card details</p>
-          <input type="text" placeholder="Enter your name" />
-          <input type="text" placeholder="Enter card number" />
-          <input type="text" placeholder="Enter CVV" />
+          <input type="text" placeholder="Enter your name" required />
+          <input
+            type="tel"
+            inputmode="numeric"
+            pattern="[0-9\s]{13,19}"
+            autocomplete="cc-number"
+            maxlength="19"
+            placeholder="xxxx xxxx xxxx xxxx"
+            required
+          />
+          <input type="number" placeholder="Enter CVV" required />
           <button class="pay">Pay</button>
         </form>
       </div>
