@@ -61,8 +61,8 @@ document.addEventListener("click", function (e) {
   } else if (e.target.dataset.remove) {
     handleRemoveBtn(e.target.dataset.remove);
   } else if (e.target.id === "check-out") {
-    console.log(e.target.id);
     module.classList.remove("hidden");
+    window.scrollTo(0, 0);
   } else if (e.target.id === "close") {
     module.classList.add("hidden");
   }
